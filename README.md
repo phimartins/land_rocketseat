@@ -10,6 +10,10 @@ git status
 
 git add nomedoarquivo
 
+# comit no git hub com comentário 
+
+git commit -m "comentário"
+
 # subindo a alteração para o repositorio
 
 git push
