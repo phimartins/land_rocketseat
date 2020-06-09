@@ -18,4 +18,25 @@ git commit -m "comentário"
 
 git push
 
+# verificar o log de alterações
+
+git log
+
+# verificar o conteúdo de cada commit
+
+git show commitid
+
+# verificar somento o conteúdo do último commit
+
+git show
+
+# criar uma nova ramificação do projeto
+
+git branch nome
+
+# entrar na nova ramificação do projeto
+
+git checkout nome
+
+
 
