@@ -1,58 +1,31 @@
-# Clonando um repositorio
+# Git & GitHub
 
-git clone https://githu.com/user/repositorio
+## Comandos básicos aprendidos na aula da Rocketseat
 
-# Verificando o status do repositorio
+* git init // iniciando um repositório
+* git clone https://githu.com/user/repositorio // clonando um repositório
+* git status // verificando o status do repositorio
+* git add nomedoarquivo // adicionando uma nova versão ao repositorio
+* git commit -m "comentário" // comit no git hub com comentário 
+* git push // subindo a alteração para o repositorio
+* git log // verificar o log de alterações
+* git show commitid // verificar o conteúdo de cada commit
+* git show // verificar somento o conteúdo do último commit
+* git branch nome // criar uma nova ramificação do projeto
+* git checkout nome // entrar na nova ramificação do projeto
+* git push --set-upstream origin nome // upando a nova ramificação para o repositório
+* git checkout master // voltar para ramificação principal 
+* git checkout nome // ir para uma ramificação qualquer
+* git branch // ver todas as ramificações
+* touch nomedoarquivo.extensão // criar arquivo no repositório
+* git merge nomedaramificação // adicionar as funcionalidades da nova ramificação no projeto principal
+* git branch -D nome nomedabranch // deletar a branch da nova funcionalidade depois de aplicar ao projeto
+* git remote add origin linkdorepositorio // subindo um repositório local para nuvem
+* git push -u origin master // primeiro push precisa criar a branch master
+* git remote -v // ver os meus repositórios remotos
+* git add . // adicionar todas as alterações
+* git checkout commitid -- nomedoarquivo // Voltar um arquivo para um determinado momento da linha do tempo
 
-git status
-
-# adicionando uma nova versão ao repositorio
-
-git add nomedoarquivo
-
-# comit no git hub com comentário 
-
-git commit -m "comentário"
-
-# subindo a alteração para o repositorio
-
-git push
-
-# verificar o log de alterações
-
-git log
-
-# verificar o conteúdo de cada commit
-
-git show commitid
-
-# verificar somento o conteúdo do último commit
-
-git show
-
-# criar uma nova ramificação do projeto
-
-git branch nome
-
-# entrar na nova ramificação do projeto
-
-git checkout nome
-
-# upando a nova ramificação para o repositório
-
-git push --set-upstream origin nome
-
-# voltar para ramificação principal 
- 
-git checkout master
-
-# ir para uma ramificação qualquer
-
-git checkout nome
-
-# ver todas as ramificações
-
-git branch
 
 
 
