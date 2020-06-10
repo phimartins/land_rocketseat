@@ -38,5 +38,22 @@ git branch nome
 
 git checkout nome
 
+# upando a nova ramificação para o repositório
+
+git push --set-upstream origin nome
+
+# voltar para ramificação principal 
+ 
+git checkout master
+
+# ir para uma ramificação qualquer
+
+git checkout nome
+
+# ver todas as ramificações
+
+git branch
+
+
 
 
